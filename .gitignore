@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/CompanyManager/.vs/CompanyManager
+/CompanyManager/CompanyManager.ConApp/bin/Debug/net8.0
+/CompanyManager/CompanyManager.ConApp/obj
+/CompanyManager/CompanyManager.Logic/bin/Debug/net8.0
+/CompanyManager/CompanyManager.Logic/obj
