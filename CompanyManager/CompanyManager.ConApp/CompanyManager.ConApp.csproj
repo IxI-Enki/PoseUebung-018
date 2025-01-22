@@ -8,7 +8,19 @@
         </PropertyGroup>
 
         <ItemGroup>
+          <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
+          <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.1" />
+          <PackageReference Include="System.Linq.Dynamic.Core" Version="1.5.1" />
+        </ItemGroup>
+
+        <ItemGroup>
           <ProjectReference Include="..\CompanyManager.Logic\CompanyManager.Logic.csproj" />
+        </ItemGroup>
+
+        <ItemGroup>
+          <None Update="CompanyManager.db">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+          </None>
         </ItemGroup>
 
 </Project>

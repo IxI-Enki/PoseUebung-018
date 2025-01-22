@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
 namespace CompanyManager.Logic.DataContext
 {
         public class DbSet<T> : List<T> where T : IdentityObject
@@ -21,3 +22,4 @@ namespace CompanyManager.Logic.DataContext
                 }
         }
 }
+*/

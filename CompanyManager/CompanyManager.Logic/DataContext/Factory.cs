@@ -13,7 +13,11 @@ namespace CompanyManager.Logic.DataContext
                 /// <returns>An instance of IContext.</returns>
                 public static IContext CreateContext( )
                 {
-                        throw new NotImplementedException( );
+                        var result = new CompanyContext( );
+
+                        result.Database.EnsureCreated( );
+
+                        return result;
                 }
         }
 }

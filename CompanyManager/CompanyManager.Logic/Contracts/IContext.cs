@@ -1,11 +1,11 @@
-﻿using CompanyManager.Logic.DataContext;
-using CompanyManager.Logic.Models;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace CompanyManager.Logic.Contracts
 {
-        interface IContext : IDisposable
+        public interface IContext : IDisposable
         {
-                DbSet<Employee> EmployeeSet { get; }
+                DbSet<Entities.Company> CompanySet { get; }
+                DbSet<Entities.Customer> CustomerSet { get; }
                 int SaveChanges( );
         }
 }
