@@ -10,7 +10,7 @@
                 /// </summary>
                 int CompanyId { get; set; }
                 /// <summary>
-                /// Gets or sets the name of the customer.
+                /// Gets or sets the _name of the customer.
                 /// </summary>
                 string Name { get; set; }
                 /// <summary>

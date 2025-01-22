@@ -10,11 +10,11 @@
                 /// </summary>
                 int CompanyId { get; set; }
                 /// <summary>
-                /// Gets or sets the first name of the employee.
+                /// Gets or sets the first _name of the employee.
                 /// </summary>
                 string FirstName { get; set; }
                 /// <summary>
-                /// Gets or sets the last name of the employee.
+                /// Gets or sets the last _name of the employee.
                 /// </summary>
                 string LastName { get; set; }
                 /// <summary>

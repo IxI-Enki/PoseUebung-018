@@ -6,7 +6,7 @@
         public interface ICompany : IIdentifiable
         {
                 /// <summary>
-                /// Gets or sets the name of the company.
+                /// Gets or sets the _name of the company.
                 /// </summary>
                 string Name { get; set; }
                 /// <summary>
