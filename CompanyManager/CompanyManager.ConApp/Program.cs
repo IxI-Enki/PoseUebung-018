@@ -110,7 +110,8 @@ namespace CompanyManager.ConApp
                         Console.WriteLine( );
                         Console.WriteLine( "Query-Companies:" );
                         Console.WriteLine( "----------------" );
-
+                      
+                        Console.WriteLine( "Query (e.g. Name.Contains(\"Sql\")" );
                         Console.Write( "Query: " );
                         var query = Console.ReadLine( )!;
 
